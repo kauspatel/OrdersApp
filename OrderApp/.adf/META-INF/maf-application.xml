@@ -3,4 +3,6 @@
                    xmlns:adfmf="http://xmlns.oracle.com/adf/mf" version="1.0"
                    name="OrderApp" id="com.company.OrderApp"
                    appControllerFolder="ApplicationController"
-                   listener-class="application.LifeCycleListenerImpl"></adfmf:application>
+                   listener-class="application.LifeCycleListenerImpl">
+  <adfmf:featureReference refId="TestFeature" id="fr1"/>
+</adfmf:application>
